@@ -1,9 +1,9 @@
-module('Dude tests');
+module('AndThen tests');
 
-test('Dude testing', function() {
-    var dude = new Dude(function (resolve, reject) {});
+test('AndThen testing', function() {
+    var andThen = new AndThen(function (resolve, reject) {});
 
-    equal(dude instanceof Dude, true, 'dude should be an instanceof Dude');
-    equal(typeof dude.annddtheenn, 'function', 'dude should have an annddtheenn method');
-    equal(typeof dude.noandthen, 'function', 'dude should have a noandthen method');
+    equal(andThen instanceof AndThen, true, 'andThen should be an instanceof AndThen');
+    equal(typeof andThen.annddtheenn, 'function', 'andThen should have an annddtheenn method');
+    equal(typeof andThen.noandthen, 'function', 'andThen should have a noandthen method');
 });

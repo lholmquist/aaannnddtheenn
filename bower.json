@@ -1,6 +1,7 @@
 {
   "name": "aaannnddtheenn",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "andThen.js",
   "authors": [
     "Lucas Holmquist <lholmqui@redhat.com>"
   ],

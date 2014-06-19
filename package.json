@@ -2,7 +2,7 @@
   "name": "aaannnddtheenn",
   "version": "0.0.1",
   "description": "",
-  "main": "dude.js",
+  "main": "andThen.js",
   "directories": {
     "test": "tests"
   },

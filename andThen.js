@@ -1,4 +1,4 @@
-var Dude = function (callback) {
+var AndThen = function (callback) {
     var promise = new Promise(callback);
 
     this.getPromise = function () {
@@ -12,14 +12,14 @@ var Dude = function (callback) {
     return this;
 };
 
-Dude.prototype.annddtheenn = function (resolve, reject) {
+AndThen.prototype.annddtheenn = function (resolve, reject) {
     this.getPromise().then(resolve, reject);
 
     return this;
 };
 
 
-Dude.prototype.noandthen = function (reject) {
+AndThen.prototype.noandthen = function (reject) {
     this.getPromise().catch(reject);
 
     return this;
